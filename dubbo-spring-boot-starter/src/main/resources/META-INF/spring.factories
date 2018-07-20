@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.abc.dubbo.dubbospringbootstarter.DubboAutoConfiguratin
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.abc.dubbo.dubbospringbootstarter.DubboAutoConfiguratin,\
+com.abc.dubbo.dubbospringbootstarter.DemoAutoConfiguratin

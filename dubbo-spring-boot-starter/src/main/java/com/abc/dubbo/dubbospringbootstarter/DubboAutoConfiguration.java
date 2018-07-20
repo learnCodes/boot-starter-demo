@@ -20,7 +20,7 @@ class DubboAutoConfiguratin{
      */
     @Bean
     @ConditionalOnMissingBean
-    public DemoEntity init() {
+    public DemoEntity initDemoEntity() {
         DemoEntity demo = new DemoEntity();
         demo.setMessage(properties.getApplication());
         return demo;
